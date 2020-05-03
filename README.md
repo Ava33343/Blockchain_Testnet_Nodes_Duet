@@ -182,10 +182,17 @@ rm -Rf node1/geth node2/geth node3/geth
 ```
 
 A new folder _**twinkles**_ was created with three nodes as authorized sealers and their addresses to be pre-funded under `./puppeth`. The three nodes are running on port `30303`, `30304` and `30305` respectively. The three nodes were initialized as follows:
+
 ![node3_twinkles_launch](Screenshots/node3_twinkles_launch.png)
 
-The three nodes start talking to each other! 
+The mining party starts after 11pm on a Saturday! 
+
 ![twinkles_blockseal](Screenshots/twinkles_blockseal.png)
+
+Send 567 ETH from node1 to node3 on _**winksplus**_ network. Whoo-hoo!
+
+![twinkles_transaction](Screenshots/twinkles_winksplus.png)
+
 _Note: The folder for `node3` is based on node3 created under _**twinkles**_ folder for proof-of-authority blockchain testnet _**winksplus**_._ For details, please refer to logs in [Nodes](Code/nodes_twinkles) folder.
 
 _**Cheers!**_
@@ -209,9 +216,3 @@ _**Cheers!**_
 * https://medium.com/@collin.cusce/using-puppeth-to-manually-create-an-ethereum-proof-of-authority-clique-network-on-aws-ae0d7c906cce
 * https://ethereum.stackexchange.com/questions/125/how-do-i-set-up-a-private-ethereum-network
 * https://blog.ethereum.org/2017/04/14/geth-1-6-puppeth-master/
-
-
-
-
-
-

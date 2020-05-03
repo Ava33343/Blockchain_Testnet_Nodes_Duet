@@ -1,13 +1,11 @@
-Blockchain Network "winkweb" with Node Name "twinkle"
+Blockchain Network "winkweb" on "twinkle" Nodes
 
 Under proof-of-authority consensus
-
+_____________________________________________________
 
 Node 1
 
 ./geth account new --datadir node1
-
-./geth init winkweb.json --datadir node1
 
 ./geth init winkweb.json --datadir node1
 
@@ -20,16 +18,12 @@ Node 2
 
 ./geth init winkweb.json --datadir node2
 
-./geth init winkweb.json --datadir node2
-
 ./geth --datadir node2 --port 30304 --mine --unlock "0x7B1051942e452b3288564F0fB594E8978077c676" --password password.txt --bootnodes "enode://d06b72dc40419de3e48ee07a66376f95563d1061f7a7aca9158e6ad73d1d5d2caddb9a5662f24d4dc66c13b35b0c5f17ffc4c4e5d2b978952b2b3a883d9f4fc0@127.0.0.1:30303"
 
 
 Node 3
 
 ./geth account new --datadir node3
-
-./geth init winkweb.json --datadir node3
 
 ./geth init winkweb.json --datadir node3
 
@@ -45,5 +39,15 @@ http://127.0.0.1:8545/
 Transaction Hash on MyCrypto
 0x537c3dd1bae36d4afd72c776df28d6fb42b3569b9616eda022a1bf532983966a
 
+_____________________________________________________
 
+Blockchain Network "winksplus" on "twinkles" Nodes
+
+Under proof-of-authority consensus
+_____________________________________________________
+
+MyCrypto Transaction
+
+Your TX has been broadcast to the network. It is waiting to be mined & confirmed. During ICOs, it may take 3+ hours to confirm. Use the Verify & Check buttons below to see. TX Hash: 0xd93d1fd2cfcd04e8d9e7a3f860671a17217013e6cc597dd39e2f57246f50143e
+Check TX Status
 
