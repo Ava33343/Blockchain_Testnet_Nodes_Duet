@@ -102,8 +102,11 @@ _Tip: You may call it anything you like._
         * The default port is `30303` that is used by node 1
     * _Note: `--ipcdisable` needs to be added on windows to disable IPC-RPC server and allow mining on multiple mining processes to run parallel_
 
-_Launching_ 
+<details><summary>
+Launching </summary>
+
 ![twinkle_node1_node2_launch](Screenshots/twinkle_node1_node2_launch.png)
+</details>
 
 _Block Seal_
 ![twinkle_node1_node2_blockseal](Screenshots/twinkle_node1_node2_blockseal.png)
@@ -184,13 +187,23 @@ In order to clear up the preceding processes, the following command line prompt 
 rm -Rf node1/geth node2/geth node3/geth
 ```
 
-A new folder _**twinkles**_ was created with three nodes as authorized sealers and their addresses to be pre-funded under `./puppeth`. The three nodes are running on port `30303`, `30304` and `30305` respectively. The three nodes were initialized as follows:
+A new folder _**twinkles**_ was created with three nodes as authorized sealers and their addresses to be pre-funded under `./puppeth`. The three nodes are running on port `30303`, `30304` and `30305` respectively. 
+
+<details><summary>
+The three nodes were initialized as follows:</summary>
 
 ![node3_twinkles_launch](Screenshots/node3_twinkles_launch.png)
+</details>
 
 The mining party starts after 11pm on a Saturday! 
 
+![twinkles_blockseal](Screenshots/winksplus.gif)
+
+<details><summary>
+Blockseal static image: </summary>
+
 ![twinkles_blockseal](Screenshots/twinkles_blockseal.png)
+</details>
 
 Send 567 ETH from node1 to node3 on _**winksplus**_ network. Whoo-hoo!
 
