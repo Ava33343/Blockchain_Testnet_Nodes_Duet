@@ -144,6 +144,7 @@ _**High five!**_
 To add another bootnode onto _**twinkle**_ network to connect all three for a new colleague, we use port `30305` and connect node3 to node1 by:
 <details><summary>
 Step 1: Create a new node, node3</summary>
+
 ```
 ./geth account new --datadir node3
 ```
@@ -151,6 +152,7 @@ Step 1: Create a new node, node3</summary>
 
 <details><summary>
 Step 2: Initialize node3</summary>
+
 ```
 ./geth init winkweb.json --datadir node3
 ```
@@ -158,6 +160,7 @@ Step 2: Initialize node3</summary>
 
 <details><summary>
 Step 3: Launch node3 mining</summary>
+
 ```
 ./geth --datadir node3 --port 30305 --mine --unlock "0x1c3a8EcC422ea95aFbe09E8c0e0553f7f163B830" --password password.txt --bootnodes "enode://d06b72dc40419de3e48ee07a66376f95563d1061f7a7aca9158e6ad73d1d5d2caddb9a5662f24d4dc66c13b35b0c5f17ffc4c4e5d2b978952b2b3a883d9f4fc0@127.0.0.1:30303"
 ```
