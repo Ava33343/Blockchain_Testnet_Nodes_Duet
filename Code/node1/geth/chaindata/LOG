@@ -1,0 +1,28 @@
+=============== May 2, 2020 (EDT) ===============
+19:26:08.252025 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:26:08.266569 db@open opening
+19:26:08.274911 version@stat F·[] S·0B[] Sc·[]
+19:26:08.284531 db@janitor F·2 G·0
+19:26:08.284589 db@open done T·17.978084ms
+=============== May 2, 2020 (EDT) ===============
+19:29:03.403327 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:29:03.403845 version@stat F·[] S·0B[] Sc·[]
+19:29:03.403873 db@open opening
+19:29:03.403946 journal@recovery F·1
+19:29:03.404512 journal@recovery recovering @1
+19:29:03.473351 memdb@flush created L0@2 N·31263 S·2MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+19:29:03.533340 memdb@flush created L0@3 N·41085 S·2MiB "\x00\x06\xa3..zt\xf2,v71356":"\xff\xce\x1b..\x85\xcdj,v71530"
+19:29:03.590263 memdb@flush created L0@4 N·38886 S·2MiB "\x00\x04\x1d..K/\xc0,v107992":"\xff\xfa\xad..\xf5E\xbe,v108888"
+19:29:03.648238 memdb@flush created L0@5 N·42224 S·2MiB "\x00\x066...8\xa4,v117640":"\xff\xf7E..C$\x9c,v146923"
+19:29:03.703165 memdb@flush created L0@6 N·26258 S·1MiB "\x00\x1a\x8e..\x18\x19\x1c,v178547":"\xff\xe5\a..\xa94\xdb,v178711"
+19:29:03.783016 memdb@flush created L0@7 N·52581 S·2MiB "\x00S\x02..\xe8\xa7P,v221700":"\xff\x86\x11..aO\x90,v222002"
+19:29:03.855044 memdb@flush created L0@8 N·45340 S·2MiB "\x00\v\v..˯\xbb,v275527":"\xff\xfd\x12..U\x89\xe5,v261629"
+19:29:03.925511 memdb@flush created L0@9 N·33877 S·2MiB "\x00\x01\xc5..\x8d\xca[,v308321":"\xff\xfd8..#\x96p,v299838"
+19:29:04.000020 memdb@flush created L0@10 N·31920 S·3MiB "\x00\x00\x9b..˃T,v332768":"\xff\xff1..\xf4\x94D,v319509"
+19:29:04.067069 memdb@flush created L0@11 N·27859 S·2MiB "\x00\x11\x98..dd\xc4,v345363":"\xff\xfc\xc2..̶\xa5,v344888"
+19:29:04.118089 memdb@flush created L0@12 N·26663 S·1MiB "\x00\n\xcf..\x9b\x1cV,v384725":"\xff܈..7\xc5$,v384352"
+19:29:04.181700 memdb@flush created L0@13 N·40054 S·2MiB "\x00\x17\xdb..\xfb\xbde,v423662":"\xff\xf9_..2%\x16,v423496"
+19:29:04.183000 version@stat F·[12] S·27MiB[27MiB] Sc·[3.00]
+19:29:04.231533 db@janitor F·14 G·0
+19:29:04.231584 db@open done T·827.695879ms
+19:29:04.231657 table@compaction L0·12 -> L1·0 S·27MiB Q·438011

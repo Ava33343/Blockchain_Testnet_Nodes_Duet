@@ -1,0 +1,22 @@
+=============== May 2, 2020 (EDT) ===============
+20:24:33.746788 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:24:33.761061 db@open opening
+20:24:33.763390 version@stat F·[] S·0B[] Sc·[]
+20:24:33.777939 db@janitor F·2 G·0
+20:24:33.777976 db@open done T·16.891497ms
+21:43:03.858132 memdb@flush N·45207 S·3MiB
+21:43:03.888874 memdb@flush created L0@3 N·45207 S·847KiB "loc..seq,v19":"version,v1"
+21:43:03.889135 version@stat F·[1] S·847KiB[847KiB] Sc·[0.25]
+21:43:03.898137 memdb@flush committed F·1 T·39.947704ms
+21:43:03.916774 journal@remove removed @1
+22:54:26.964451 memdb@flush N·44461 S·3MiB
+22:54:26.997788 memdb@flush created L0@5 N·44461 S·805KiB "n:\x00..ing,v53625":"n:\xff..ong,v47967"
+22:54:26.997841 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+22:54:27.006309 memdb@flush committed F·1 T·41.818836ms
+22:54:27.025760 journal@remove removed @2
+22:54:33.860220 table@compaction L0·2 -> L1·0 S·1MiB Q·89794
+22:54:33.903949 table@build created L1@6 N·24205 S·843KiB "loc..seq,v19":"version,v1"
+22:54:33.904015 version@stat F·[0 1] S·843KiB[0B 843KiB] Sc·[0.00 0.01]
+22:54:33.913253 table@compaction committed F-1 S-809KiB Ke·0 D·65463 T·52.996158ms
+22:54:33.913972 table@remove removed @5
+22:54:33.914497 table@remove removed @3
