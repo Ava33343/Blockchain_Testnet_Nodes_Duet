@@ -186,14 +186,16 @@ A new folder _**twinkles**_ was created with three nodes as authorized sealers a
 
 The three nodes start talking to each other! 
 ![twinkles_blockseal](Screenshots/twinkles_blockseal.png)
-_Note: The folder for `node3` is based on node3 created under _**twinkles**_ folder for proof-of-authority blockchain testnet _**winksplus**_._
+_Note: The folder for `node3` is based on node3 created under _**twinkles**_ folder for proof-of-authority blockchain testnet _**winksplus**_._ For details, please refer to logs in [Nodes](Code/nodes_twinkles) folder.
 
 _**Cheers!**_
 
 --- 
 ## Files
-
 [Code](Code)
+
+[Nodes](Code/nodes_twinkles)
+
 [Images](Screenshots)
 
 # References:
@@ -203,6 +205,12 @@ _**Cheers!**_
 * https://ethereum.stackexchange.com/questions/23664/how-to-generate-the-correct-go-ethereum-bootnode-when-creating-a-private-blockch
 * https://github.com/ethereum/go-ethereum/blob/master/README.md
 * https://hackernoon.com/setup-your-own-private-proof-of-authority-ethereum-network-with-geth-9a0a3750cda8
+* https://medium.com/0xcert/https-medium-com-0xcert-framework-tutorial-1-how-to-run-and-prepare-geth-node-for-back-end-integration-df33520949e3
+* https://medium.com/@collin.cusce/using-puppeth-to-manually-create-an-ethereum-proof-of-authority-clique-network-on-aws-ae0d7c906cce
+* https://ethereum.stackexchange.com/questions/125/how-do-i-set-up-a-private-ethereum-network
+* https://blog.ethereum.org/2017/04/14/geth-1-6-puppeth-master/
+
+
 
 
 
